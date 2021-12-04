@@ -8,10 +8,6 @@ int main () {
     int horizontal = 0, depth = 0;
     std::string line;
 
-    enum mov {
-        forward, down, up
-    };
-
     while(!input.eof()) {
         
         getline(input, line);
@@ -21,8 +17,6 @@ int main () {
         }
         
         int num;
-
-
 
         std::stringstream ss(line);
 
